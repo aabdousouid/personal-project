@@ -1,0 +1,15 @@
+<!-- <p>dialog works! {{isOpen()}}</p>
+@if (isOpen()===true) {<p>the dialog is open </p>} -->
+
+<!-- <button type="button" (click)="emitCloseAction()" class="btn">New</button> -->
+
+@if (isOpen()) {
+  <div class="dialog-backdrop" (click)="onBackdropClick($event)">
+    <div class="dialog-panel" role="dialog" aria-modal="true" [attr.aria-label]="label()">
+      <button type="button" class="dialog-close" aria-label="Close" (click)="close()">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+      </button>
+      <ng-content />
+    </div>
+  </div>
+}
