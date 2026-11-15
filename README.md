@@ -131,3 +131,7 @@ This project is developed incrementally, following professional software enginee
 ## License
 
 This project is licensed under the MIT License.
+
+## Project Status
+
+Currently under initial development.
