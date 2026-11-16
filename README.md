@@ -1,6 +1,6 @@
 # LifeTracker
 
-LifeTracker is a personal productivity application designed to organize and track progress across different areas of life, including personal goals, daily tasks, habits, activities, and hobbies.
+LifeTracker is a productivity and progress tracking application designed to organize and track progress across different areas of life, including personal goals, daily tasks, habits, activities, and hobbies.
 
 This project also serves as a hands-on learning environment to refresh and strengthen my software engineering skills while exploring modern development practices and technologies.
 
